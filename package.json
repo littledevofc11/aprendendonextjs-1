@@ -1,0 +1,19 @@
+{
+  "name": "aluracasesdivulgacao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:littledevofc11/aprendendonextjs-1.git",
+  "author": "littledevofc11 <enzoggw015@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
