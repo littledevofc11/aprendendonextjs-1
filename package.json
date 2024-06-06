@@ -6,6 +6,9 @@
   "author": "littledevofc11 <enzoggw015@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "next": "^14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -13,6 +16,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   }

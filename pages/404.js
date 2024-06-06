@@ -1,14 +1,13 @@
-import Link from '../src/components/Link/'
+import Link from '../src/components/Link';
 
-
-export default function page404(){
-    return(
+//pagina de erro 404
+export default function Page404() {
+    return (
         <div>
-            <h1>voce se perdeu :O</h1>
+            <h1>Você se perdeu e caiu na página 404 :O</h1>
             <Link href="/">
-                Ir para HOME
+                Ir para a home
             </Link>
-            
         </div>
     )
 }
